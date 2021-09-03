@@ -1,9 +1,14 @@
 
-def listDivide(numbers, divide):
+def listDivide(numbers, divide = 2):
     """
     The function returns the number of elements in the numbers list that are divisibleby divide
     """
-    pass
+    counter = 0
+    for num in numbers:
+        if num % 2 == 0:
+            counter += 1
+            
+     return counter       
 
 def testListDivide():
     """
