@@ -5,7 +5,7 @@ def listDivide(numbers, divide = 2):
     """
     counter = 0
     for num in numbers:
-        if num % 2 == 0:
+        if num % divide == 0:
             counter += 1
             
      return counter       
