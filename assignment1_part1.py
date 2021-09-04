@@ -8,12 +8,18 @@ def listDivide(numbers, divide = 2):
         if num % divide == 0:
             counter += 1
             
-     return counter       
+    return counter       
+
+# Professor, Im confused about the following, can you please explain?
+
+class listDivideException(Exception):
+    def __init__(self):
 
 def testListDivide():
     """
     Test listDivide
     """
+    # Not sure what to put here
     assert listDivide([1,2,3,4,5]) == 2
     assert listDivide([2,4,6,8,10]) == 5
     assert listDivide([30, 54, 63,98, 100], divide=10) == 2
