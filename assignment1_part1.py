@@ -19,7 +19,7 @@ def testListDivide():
     """
     Test listDivide
     """
-    # Not sure what to put here
+# Not sure what to put here
     assert listDivide([1,2,3,4,5]) == 2
     assert listDivide([2,4,6,8,10]) == 5
     assert listDivide([30, 54, 63,98, 100], divide=10) == 2
