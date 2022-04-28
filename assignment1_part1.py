@@ -10,7 +10,6 @@ def listDivide(numbers, divide = 2):
             
     return counter       
 
-# Professor, Im confused about the following, can you please explain?
 
 class listDivideException(Exception):
     def __init__(self):
